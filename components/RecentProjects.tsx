@@ -27,7 +27,7 @@ const RecentProjects = () => {
                     <div className='relative flex items-center justify-center
                     sm:w-96 w-[80vw] overflow-hidden h-[30vh] lg:h-[30vh] mb-10 '>
                         <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#41644A] '>
-                           <img src="/bg.png" alt='bg-img' /> 
+                           <img src="./bg.png" alt='bg-img' /> 
                         </div>
                         <img 
                         src={img}
