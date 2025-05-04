@@ -93,7 +93,7 @@ export const navItems = [
       title: "Python Study Planner",
       des: "A Python tool that lets students input subjects and study durations, checks against a 12-hour daily limit, and generates a time-formatted study plan saved to a text file.",
       img: "./pp3.webp",
-      iconLists: ["/p.svg"],
+      iconLists: ["./p.svg"],
       link: "https://github.com/faizansh123/TimeTable-Generator",
     },
     {
