@@ -72,8 +72,25 @@ export const navItems = [
   ];
   
   export const projects = [
+
     {
       id: 1,
+      title: "MockMate",
+      des: "MockMate is an AI-powered interview simulator that generates personalized voice-based interview questions, evaluates responses, and provides feedback using Vapi workflows, Deepgram voices, and Firestore integration.",
+      img: "./mock.jpg",
+      iconLists: ["./re.svg"], 
+      link: "https://github.com/faizansh123/MockMate-AI-Interviewer",
+    },
+    {
+      id: 2,
+      title: "Summary-AI",
+      des: "Summary-AI is a PDF summarizer that uses Google GenAI to extract, condense, and present key insights from complex documents through a clean, user-friendly web app.",
+      img: "./summary.jpg",
+      iconLists: ["./re.svg"],
+      link: "https://github.com/faizansh123/Summary-AI",
+    },
+    {
+      id: 3,
       title: "Java Ping Pong Game",
       des: "A Java-based Ping Pong game using Swing and 2D graphics with real-time player vs AI gameplay, keyboard controls, and interactive UI components.",
       img: "./pp1.png",
@@ -81,7 +98,7 @@ export const navItems = [
       link: "https://github.com/faizansh123/Ping-Pong",
     },
     {
-      id: 2,
+      id: 4,
       title: "Java Blackjack Game",
       des: "A Java-based Blackjack game featuring card logic, scoring, and user interaction through a Swing GUI with buttons, labels, and dialog boxes for gameplay control.",
       img: "./pp2.png",
@@ -89,7 +106,7 @@ export const navItems = [
       link: "https://github.com/faizansh123/BlackJack-Games",
     },
     {
-      id: 3,
+      id: 6,
       title: "Python Study Planner",
       des: "A Python tool that lets students input subjects and study durations, checks against a 12-hour daily limit, and generates a time-formatted study plan saved to a text file.",
       img: "./pp3.webp",
@@ -97,7 +114,7 @@ export const navItems = [
       link: "https://github.com/faizansh123/TimeTable-Generator",
     },
     {
-      id: 4,
+      id: 5,
       title: "Java Library System",
       des: "A Java OOP system to manage eBooks and hardcopy books, track member records, and handle borrowing, returning, and searching with polymorphism and ArrayList storage.",
       img: "./pp4.jpg",
