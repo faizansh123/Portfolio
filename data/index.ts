@@ -73,8 +73,18 @@ export const navItems = [
   
   export const projects = [
 
+
     {
       id: 1,
+      title: "NBA ML Predictor",
+      des: "NBA ML predictor ot predict future nba games based on data from 2016-2022 nba seasons",
+      img: "./nba.webp",
+      iconLists: ["./p.svg"], 
+      link: "https://github.com/faizansh123/NBA-ML-predictor",
+    },
+
+    {
+      id: 2,
       title: "MockMate",
       des: "MockMate is an AI-powered interview simulator that generates personalized voice-based interview questions, evaluates responses, and provides feedback using Vapi workflows, Deepgram voices, and Firestore integration.",
       img: "./mock.jpg",
@@ -82,7 +92,7 @@ export const navItems = [
       link: "https://github.com/faizansh123/MockMate-AI-Interviewer",
     },
     {
-      id: 2,
+      id: 3,
       title: "Summary-AI",
       des: "Summary-AI is a PDF summarizer that uses Google GenAI to extract, condense, and present key insights from complex documents through a clean, user-friendly web app.",
       img: "./summary.jpg",
@@ -90,7 +100,7 @@ export const navItems = [
       link: "https://github.com/faizansh123/Summary-AI",
     },
     {
-      id: 3,
+      id: 4,
       title: "Java Ping Pong Game",
       des: "A Java-based Ping Pong game using Swing and 2D graphics with real-time player vs AI gameplay, keyboard controls, and interactive UI components.",
       img: "./pp1.png",
@@ -98,7 +108,7 @@ export const navItems = [
       link: "https://github.com/faizansh123/Ping-Pong",
     },
     {
-      id: 4,
+      id: 5,
       title: "Java Blackjack Game",
       des: "A Java-based Blackjack game featuring card logic, scoring, and user interaction through a Swing GUI with buttons, labels, and dialog boxes for gameplay control.",
       img: "./pp2.png",
@@ -114,7 +124,7 @@ export const navItems = [
       link: "https://github.com/faizansh123/TimeTable-Generator",
     },
     {
-      id: 5,
+      id: 7,
       title: "Java Library System",
       des: "A Java OOP system to manage eBooks and hardcopy books, track member records, and handle borrowing, returning, and searching with polymorphism and ArrayList storage.",
       img: "./pp4.jpg",
