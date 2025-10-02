@@ -201,28 +201,35 @@ export const navItems = [
   
   export const workExperience = [
     {
-      id: 1,
+    id: 1,
+    title: "Mobile App Development Intern - CAYOP (via IBM x Riipen)", 
+    desc: "Developed and launched a cross-platform Bubble.io mobile app for 1,000+ users; built authentication, profiles, and Agile-driven features to expand accessibility.", 
+    className: "md:col-span-2",
+    thumbnail: "./e6.svg",
+},
+    {
+      id: 2,
       title: "Software Developer - Reality AI Lab", 
       desc: "Contributed to Marvel AI and Sky AI projects; built responsive, accessible frontends using React, Next.js, and Tailwind CSS.",
       className: "md:col-span-2",
       thumbnail: "./e1.svg",
     },
     {
-      id: 2,
+      id: 3,
       title: "Website & SEO Dev Intern - Sports Media Inc",
       desc: "Developed and maintained websites with HTML, CSS, JavaScript, and Next.js, optimizing for SEO and performance.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "./e2.svg",
     },
     {
-      id: 3,
+      id: 4,
       title: " AI Trainer - Outlier",
       desc: "Reviewed AI-generated code, optimized logic, and wrote summaries to ensure accurate, scalable solutions using test-driven development.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "./e3.svg",
     },
     {
-      id: 4,
+      id: 5,
       title: "Summer Camp Counselor - UTM",
       desc: "Led interactive group activities and promoted a positive, supportive environment while resolving camper conflicts.",
       className: "md:col-span-2",
