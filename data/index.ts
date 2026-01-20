@@ -74,17 +74,26 @@ export const navItems = [
   export const projects = [
 
 
-    {
-      id: 1,
-      title: "NBA ML Predictor",
-      des: "NBA ML predictor ot predict future nba games based on data from 2016-2022 nba seasons",
-      img: "./nba.webp",
-      iconLists: ["./p.svg"], 
-      link: "https://github.com/faizansh123/NBA-ML-predictor",
-    },
 
+{
+      id: 1,
+      title: "Marketio",
+      des: "Marketio is an AI-powered growth platform that analyzes real-time TikTok trends and automatically generates high-performing UGC scripts, videos, and ad creatives for specific products and niches.",
+      img: "./1768861813012.jpg",
+      iconLists: ["./re.svg"],
+      link: "https://github.com/faizansh123/Marketio",
+    },
     {
       id: 2,
+      title: "Farmlite",
+      des: "Farmlite is an AI-powered smart farming platform that analyzes satellite data to help farmers make data-driven decisions on crop health, soil quality, and field optimization.",
+      img: "./Screenshot 2025-11-09 004852.jpg",
+      iconLists: ["./re.svg"],
+      link: "https://github.com/faizansh123/Farmlite",
+    },
+    
+    {
+      id: 3,
       title: "MockMate",
       des: "MockMate is an AI-powered interview simulator that generates personalized voice-based interview questions, evaluates responses, and provides feedback using Vapi workflows, Deepgram voices, and Firestore integration.",
       img: "./mock.jpg",
@@ -92,7 +101,7 @@ export const navItems = [
       link: "https://github.com/faizansh123/MockMate-AI-Interviewer",
     },
     {
-      id: 3,
+      id: 4,
       title: "Summary-AI",
       des: "Summary-AI is a PDF summarizer that uses Google GenAI to extract, condense, and present key insights from complex documents through a clean, user-friendly web app.",
       img: "./summary.jpg",
@@ -100,37 +109,18 @@ export const navItems = [
       link: "https://github.com/faizansh123/Summary-AI",
     },
     {
-      id: 4,
-      title: "Java Ping Pong Game",
-      des: "A Java-based Ping Pong game using Swing and 2D graphics with real-time player vs AI gameplay, keyboard controls, and interactive UI components.",
-      img: "./pp1.png",
-      iconLists: ["./j.svg"],
-      link: "https://github.com/faizansh123/Ping-Pong",
-    },
-    {
       id: 5,
-      title: "Java Blackjack Game",
-      des: "A Java-based Blackjack game featuring card logic, scoring, and user interaction through a Swing GUI with buttons, labels, and dialog boxes for gameplay control.",
-      img: "./pp2.png",
-      iconLists: ["./j.svg"],
-      link: "https://github.com/faizansh123/BlackJack-Games",
+      title: "NBA ML Predictor",
+      des: "NBA ML predictor ot predict future nba games based on data from 2016-2022 nba seasons",
+      img: "./nba.webp",
+      iconLists: ["./p.svg"], 
+      link: "https://github.com/faizansh123/NBA-ML-predictor",
     },
-    {
-      id: 6,
-      title: "Python Study Planner",
-      des: "A Python tool that lets students input subjects and study durations, checks against a 12-hour daily limit, and generates a time-formatted study plan saved to a text file.",
-      img: "./pp3.webp",
-      iconLists: ["./p.svg"],
-      link: "https://github.com/faizansh123/TimeTable-Generator",
-    },
-    {
-      id: 7,
-      title: "Java Library System",
-      des: "A Java OOP system to manage eBooks and hardcopy books, track member records, and handle borrowing, returning, and searching with polymorphism and ArrayList storage.",
-      img: "./pp4.jpg",
-      iconLists: ["./j.svg"],
-      link: "https://github.com/faizansh123/Libary-Management-System",
-    },
+    
+    
+    
+    
+    
   ];
   
   export const testimonials = [
@@ -202,7 +192,7 @@ export const navItems = [
   export const workExperience = [
     {
     id: 1,
-    title: "Mobile App Development Intern - CAYOP (via IBM x Riipen)", 
+    title: "Mobile App Development Intern - CAYOP", 
     desc: "Developed and launched a cross-platform Bubble.io mobile app for 1,000+ users; built authentication, profiles, and Agile-driven features to expand accessibility.", 
     className: "md:col-span-2",
     thumbnail: "./e6.svg",
